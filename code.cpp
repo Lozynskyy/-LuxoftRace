@@ -19,7 +19,7 @@ public:
 		exit(1);
 	};
 };
-class Display : public Game
+class Display
 {
 public:
 	void print(char spc[30][50], const int L, const int W)
